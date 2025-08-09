@@ -1,0 +1,44 @@
+{
+  "genreOptions": [
+    { "value": "pop", "label": "Pop" },
+    { "value": "rock", "label": "Rock" },
+    { "value": "jazz", "label": "Jazz" },
+    { "value": "blues", "label": "Blues" },
+    { "value": "country", "label": "Country" },
+    { "value": "hip-hop", "label": "Hip Hop" },
+    { "value": "electronic", "label": "Electronic" },
+    { "value": "folk", "label": "Folk" },
+    { "value": "reggae", "label": "Reggae" },
+    { "value": "classical", "label": "Classical" },
+    { "value": "indie", "label": "Indie" },
+    { "value": "alternative", "label": "Alternative" },
+    { "value": "dangdut", "label": "Dangdut" },
+    { "value": "keroncong", "label": "Keroncong" }
+  ],
+  "moodOptions": [
+    { "value": "happy", "label": "Bahagia" },
+    { "value": "sad", "label": "Sedih" },
+    { "value": "romantic", "label": "Romantis" },
+    { "value": "energetic", "label": "Energik" },
+    { "value": "melancholic", "label": "Melankolis" },
+    { "value": "nostalgic", "label": "Nostalgia" },
+    { "value": "hopeful", "label": "Penuh Harapan" },
+    { "value": "angry", "label": "Marah" },
+    { "value": "peaceful", "label": "Damai" },
+    { "value": "dramatic", "label": "Dramatis" },
+    { "value": "mysterious", "label": "Misterius" },
+    { "value": "playful", "label": "Playful" }
+  ],
+  "languageOptions": [
+    { "value": "id", "label": "Bahasa Indonesia" },
+    { "value": "en", "label": "English" },
+    { "value": "jv", "label": "Bahasa Jawa" },
+    { "value": "su", "label": "Bahasa Sunda" }
+  ],
+  "predefinedTags": [
+    "cinta", "patah hati", "keluarga", "persahabatan", "motivasi", "inspirasi",
+    "alam", "kota", "masa depan", "masa lalu", "mimpi", "perjuangan",
+    "kebahagiaan", "kesedihan", "harapan", "kebebasan", "perdamaian", "petualangan",
+    "kerinduan", "syukur", "semangat", "kehidupan", "perpisahan", "reunion"
+  ]
+}

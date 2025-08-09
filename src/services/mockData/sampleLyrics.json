@@ -1,0 +1,41 @@
+[
+  {
+    "Id": 1,
+    "title": "Mimpi Tinggi",
+    "content": "[Verse 1]\nDi bawah langit yang biru cerah\nKu tatap jauh ke depan sana\nMimpi-mimpi mulai tumbuh\nDalam hati yang berharap\n\n[Chorus]\nMimpi tinggi, terbang bebas\nMenembus awan putih di angkasa\nTak akan pernah menyerah\nHingga semua tercapai\n\n[Verse 2]\nLangkah demi langkah ku tempuh\nJalan berliku tak mengapa\nSemangat membara dalam jiwa\nMenuju bintang yang bersinar\n\n[Chorus]\nMimpi tinggi, terbang bebas\nMenembus awan putih di angkasa\nTak akan pernah menyerah\nHingga semua tercapai\n\n[Bridge]\nWalau badai menghadang\nKu akan tetap berdiri\nKarena mimpi adalah sayap\nYang membawa kita terbang tinggi\n\n[Outro]\nMimpi tinggi... terbang bebas\nSampai ujung dunia ini",
+    "description": "Lagu tentang semangat menggapai mimpi setinggi langit",
+    "genre": "pop",
+    "mood": "hopeful",
+    "language": "id",
+    "tags": ["mimpi", "semangat", "motivasi", "harapan"],
+    "imageUrl": "",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "isFavorite": true
+  },
+  {
+    "Id": 2,
+    "title": "Hujan Malam",
+    "content": "[Verse 1]\nHujan turun membasahi bumi\nTetes-tetes jatuh ke atap rumah\nDi balik jendela ku menatap\nKenangan yang terukir dalam\n\n[Chorus]\nHujan malam, bawa pergi\nSemua luka di dalam hati\nBiarkan air mata mengalir\nBersama rintik yang turun\n\n[Verse 2]\nAngin sejuk menyentuh wajah\nMembawa cerita masa lalu\nDi keheningan malam yang sunyi\nKu temukan kedamaian sejati\n\n[Chorus]\nHujan malam, bawa pergi\nSemua luka di dalam hati\nBiarkan air mata mengalir\nBersama rintik yang turun\n\n[Bridge]\nSetelah hujan akan ada pelangi\nSetelah sedih akan ada bahagia\nMalam ini ku belajar ikhlas\nMelepaskan yang tak bisa kembali\n\n[Outro]\nHujan malam... bawa pergi\nSemua yang telah berlalu",
+    "description": "Lagu melankolis tentang malam hujan dan kenangan",
+    "genre": "folk",
+    "mood": "melancholic",
+    "language": "id",
+    "tags": ["hujan", "kenangan", "melankolis", "malam"],
+    "imageUrl": "",
+    "createdAt": "2024-01-14T20:15:00Z",
+    "isFavorite": false
+  },
+  {
+    "Id": 3,
+    "title": "Bersama Selamanya",
+    "content": "[Verse 1]\nDi sini kita berdua\nMenjalani hari yang indah\nTangan dalam tangan kita berjalan\nMenuju masa depan bersama\n\n[Chorus]\nBersama selamanya\nTak akan pernah berpisah\nCinta kita abadi\nSeperti bintang di langit\n\n[Verse 2]\nSetiap detik bersamamu\nAdalah hadiah terindah\nSenyummu cahaya hidupku\nPelukan hangatmu surgaku\n\n[Chorus]\nBersama selamanya\nTak akan pernah berpisah\nCinta kita abadi\nSeperti bintang di langit\n\n[Bridge]\nWalau dunia berubah\nWalau waktu berlalu\nCinta kita akan tetap\nMengalir seperti sungai\n\n[Outro]\nBersama selamanya...\nKau dan aku... selamanya",
+    "description": "Lagu cinta tentang komitmen dan kebersamaan selamanya",
+    "genre": "pop",
+    "mood": "romantic",
+    "language": "id",
+    "tags": ["cinta", "romantis", "kebersamaan", "komitmen"],
+    "imageUrl": "",
+    "createdAt": "2024-01-13T14:45:00Z",
+    "isFavorite": true
+  }
+]

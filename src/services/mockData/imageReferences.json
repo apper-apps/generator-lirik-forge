@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "title": "Sunset Beach",
+    "category": "Alam",
+    "icon": "Sunset",
+    "description": "Pantai dengan matahari terbenam"
+  },
+  {
+    "Id": 2,
+    "title": "City Lights",
+    "category": "Urban",
+    "icon": "Building",
+    "description": "Lampu kota di malam hari"
+  },
+  {
+    "Id": 3,
+    "title": "Mountain Peak",
+    "category": "Alam",
+    "icon": "Mountain",
+    "description": "Puncak gunung yang megah"
+  },
+  {
+    "Id": 4,
+    "title": "Ocean Waves",
+    "category": "Alam",
+    "icon": "Waves",
+    "description": "Gelombang laut yang tenang"
+  },
+  {
+    "Id": 5,
+    "title": "Forest Path",
+    "category": "Alam",
+    "icon": "Trees",
+    "description": "Jalan setapak di hutan"
+  },
+  {
+    "Id": 6,
+    "title": "Starry Night",
+    "category": "Langit",
+    "icon": "Star",
+    "description": "Langit malam berbintang"
+  },
+  {
+    "Id": 7,
+    "title": "Coffee Shop",
+    "category": "Lifestyle",
+    "icon": "Coffee",
+    "description": "Suasana kedai kopi yang hangat"
+  },
+  {
+    "Id": 8,
+    "title": "Library Corner",
+    "category": "Indoor",
+    "icon": "BookOpen",
+    "description": "Sudut perpustakaan yang tenang"
+  },
+  {
+    "Id": 9,
+    "title": "Garden Bloom",
+    "category": "Alam",
+    "icon": "Flower",
+    "description": "Taman dengan bunga yang mekar"
+  },
+  {
+    "Id": 10,
+    "title": "Rain Drops",
+    "category": "Cuaca",
+    "icon": "CloudRain",
+    "description": "Tetes hujan di jendela"
+  },
+  {
+    "Id": 11,
+    "title": "Campfire Night",
+    "category": "Outdoor",
+    "icon": "Flame",
+    "description": "Api unggun di malam hari"
+  },
+  {
+    "Id": 12,
+    "title": "Butterfly Garden",
+    "category": "Alam",
+    "icon": "Bug",
+    "description": "Taman kupu-kupu yang indah"
+  }
+]
