@@ -19,8 +19,8 @@ const Badge = forwardRef(({
   return (
     <span
       ref={ref}
-      className={cn(
-        "inline-flex items-center px-3 py-1 rounded-full text-xs font-medium",
+className={cn(
+        "inline-flex items-center px-2 py-1 sm:px-3 rounded-full text-xs font-medium touch-manipulation",
         variants[variant],
         className
       )}

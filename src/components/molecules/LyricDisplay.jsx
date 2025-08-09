@@ -14,11 +14,11 @@ const LyricDisplay = ({
       const isSection = line.match(/^\[.*\]$/) || line.match(/^(Verse|Chorus|Bridge|Pre-Chorus|Outro|Intro)/i);
       
       return (
-        <div key={index} className={cn(
+<div key={index} className={cn(
           isSection 
-            ? "font-semibold text-blueberry-600 mt-4 mb-2 first:mt-0" 
-            : "text-gray-700 leading-relaxed",
-          line.trim() === "" && "h-3"
+            ? "font-semibold text-blueberry-600 mt-3 mb-2 first:mt-0 text-sm sm:text-base" 
+            : "text-gray-700 leading-relaxed text-sm sm:text-base",
+          line.trim() === "" && "h-2 sm:h-3"
         )}>
           {line || "\u00A0"}
         </div>
@@ -29,16 +29,16 @@ const LyricDisplay = ({
   return (
     <Card variant={variant} className={cn("space-y-4", className)}>
       {title && (
-        <div className="border-b border-blueberry-100 pb-4">
-          <h3 className="text-lg font-bold text-blueberry-800 font-display">
+<div className="border-b border-blueberry-100 pb-3 sm:pb-4">
+          <h3 className="text-base sm:text-lg font-bold text-blueberry-800 font-display">
             {title}
           </h3>
         </div>
       )}
       
-      <div className="space-y-1 font-sans text-sm leading-relaxed whitespace-pre-wrap">
+<div className="space-y-1 font-sans text-xs sm:text-sm leading-relaxed whitespace-pre-wrap">
         {content ? formatLyrics(content) : (
-          <p className="text-gray-400 italic text-center py-8">
+          <p className="text-gray-400 italic text-center py-6 sm:py-8 text-sm">
             Belum ada lirik yang dihasilkan
           </p>
         )}

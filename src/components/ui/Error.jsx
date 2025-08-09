@@ -8,23 +8,23 @@ const Error = ({
   onRetry 
 }) => {
   return (
-    <div className="flex flex-col items-center justify-center py-12 text-center space-y-4">
-      <div className="w-16 h-16 rounded-full bg-red-100 flex items-center justify-center">
-        <ApperIcon name="AlertCircle" size={32} className="text-red-500" />
+<div className="flex flex-col items-center justify-center py-8 sm:py-12 text-center space-y-4 px-4">
+      <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-red-100 flex items-center justify-center">
+        <ApperIcon name="AlertCircle" size={24} className="sm:w-8 sm:h-8 text-red-500" />
       </div>
       
       <div className="space-y-2">
-        <h3 className="text-lg font-semibold text-gray-800 font-display">
+        <h3 className="text-base sm:text-lg font-semibold text-gray-800 font-display">
           {message}
         </h3>
-        <p className="text-gray-600">
+        <p className="text-sm sm:text-base text-gray-600">
           {description}
         </p>
       </div>
       
-      {onRetry && (
-        <Button onClick={onRetry} variant="outline">
-          <ApperIcon name="RefreshCw" size={18} className="mr-2" />
+{onRetry && (
+        <Button onClick={onRetry} variant="outline" size="md" className="mobile-button">
+          <ApperIcon name="RefreshCw" size={16} className="mr-2" />
           Coba Lagi
         </Button>
       )}

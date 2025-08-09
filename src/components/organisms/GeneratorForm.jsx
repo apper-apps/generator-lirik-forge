@@ -68,20 +68,20 @@ const GeneratorForm = ({ onGenerate, isGenerating, onOpenTagModal, onOpenImageMo
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <Card variant="gradient" className="space-y-6">
+<Card variant="gradient" className="space-y-4 sm:space-y-6">
         <div className="text-center space-y-2">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blueberry-500 to-blueberry-600 text-white mb-4">
-            <ApperIcon name="Music" size={28} />
+          <div className="inline-flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-gradient-to-br from-blueberry-500 to-blueberry-600 text-white mb-3 sm:mb-4">
+            <ApperIcon name="Music" size={20} className="sm:w-7 sm:h-7" />
           </div>
-          <h2 className="text-2xl font-bold text-blueberry-800 font-display">
+          <h2 className="text-xl sm:text-2xl font-bold text-blueberry-800 font-display">
             Generator Lirik AI
           </h2>
-          <p className="text-blueberry-600">
+          <p className="text-sm sm:text-base text-blueberry-600 px-2">
             Buat lirik lagu yang unik dengan bantuan kecerdasan buatan
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+<form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
           <Textarea
             label="Deskripsi Lagu"
             placeholder="Ceritakan tentang apa lagu ini... (contoh: tentang cinta yang tak berbalas, kenangan masa kecil, dll)"
@@ -89,9 +89,10 @@ const GeneratorForm = ({ onGenerate, isGenerating, onOpenTagModal, onOpenImageMo
             onChange={(e) => handleInputChange("description", e.target.value)}
             error={errors.description}
             rows={3}
+            className="mobile-textarea"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <Select
               label="Genre"
               placeholder="Pilih genre musik"
@@ -99,6 +100,7 @@ const GeneratorForm = ({ onGenerate, isGenerating, onOpenTagModal, onOpenImageMo
               value={formData.genre}
               onChange={(e) => handleInputChange("genre", e.target.value)}
               error={errors.genre}
+              className="mobile-select"
             />
 
             <Select
@@ -108,6 +110,7 @@ const GeneratorForm = ({ onGenerate, isGenerating, onOpenTagModal, onOpenImageMo
               value={formData.mood}
               onChange={(e) => handleInputChange("mood", e.target.value)}
               error={errors.mood}
+              className="mobile-select"
             />
           </div>
 
@@ -118,14 +121,15 @@ const GeneratorForm = ({ onGenerate, isGenerating, onOpenTagModal, onOpenImageMo
             onChange={(e) => handleInputChange("language", e.target.value)}
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <Button
               type="button"
               variant="outline"
               onClick={onOpenTagModal}
-              className="flex items-center justify-center gap-2"
+              className="flex items-center justify-center gap-2 mobile-button"
+              size="md"
             >
-              <ApperIcon name="Tag" size={18} />
+              <ApperIcon name="Tag" size={16} />
               Tag ({formData.tags.length})
             </Button>
 
@@ -133,20 +137,21 @@ const GeneratorForm = ({ onGenerate, isGenerating, onOpenTagModal, onOpenImageMo
               type="button"
               variant="outline"
               onClick={onOpenImageModal}
-              className="flex items-center justify-center gap-2"
+              className="flex items-center justify-center gap-2 mobile-button"
+              size="md"
             >
-              <ApperIcon name="Image" size={18} />
+              <ApperIcon name="Image" size={16} />
               {formData.imageReference ? "Gambar Dipilih" : "Pilih Gambar"}
             </Button>
           </div>
 
-          <Button
+<Button
             type="submit"
             size="lg"
             isLoading={isGenerating}
-            className="w-full animate-pulse-glow"
+            className="w-full animate-pulse-glow mobile-primary-button"
           >
-            <ApperIcon name="Sparkles" size={20} className="mr-2" />
+            <ApperIcon name="Sparkles" size={18} className="mr-2" />
             {isGenerating ? "Sedang Membuat Lirik..." : "Generate Lirik"}
           </Button>
         </form>

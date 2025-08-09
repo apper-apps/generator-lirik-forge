@@ -69,8 +69,8 @@ const GeneratorPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blueberry-50 via-white to-blueberry-100">
-      <div className="container mx-auto px-4 py-8">
+<div className="min-h-screen bg-gradient-to-br from-blueberry-50 via-white to-blueberry-100 mobile-app">
+      <div className="container mx-auto px-3 py-4 sm:px-4 sm:py-6 lg:px-6 lg:py-8 max-w-md sm:max-w-lg lg:max-w-4xl">
         <div className="max-w-2xl mx-auto">
           <GeneratorForm
             onGenerate={handleGenerate}

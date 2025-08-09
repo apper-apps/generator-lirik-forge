@@ -69,31 +69,34 @@ const LyricResultModal = ({ isOpen, onClose, lyric, onSave }) => {
         />
 
         {/* Action Buttons */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-4 border-t border-blueberry-100">
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-4 border-t border-blueberry-100">
           <Button
             variant="outline"
             onClick={handleCopy}
-            className="flex items-center justify-center gap-2"
+            className="flex items-center justify-center gap-2 mobile-button"
+            size="md"
           >
-            <ApperIcon name="Copy" size={18} />
+            <ApperIcon name="Copy" size={16} />
             Salin
           </Button>
           
           <Button
             variant="secondary"
             onClick={handleSave}
-            className="flex items-center justify-center gap-2"
+            className="flex items-center justify-center gap-2 mobile-button"
+            size="md"
           >
-            <ApperIcon name="Save" size={18} />
+            <ApperIcon name="Save" size={16} />
             Simpan
           </Button>
           
           <Button
             variant="primary"
             onClick={handleDownload}
-            className="flex items-center justify-center gap-2"
+            className="flex items-center justify-center gap-2 mobile-button"
+            size="md"
           >
-            <ApperIcon name="Download" size={18} />
+            <ApperIcon name="Download" size={16} />
             Unduh
           </Button>
         </div>

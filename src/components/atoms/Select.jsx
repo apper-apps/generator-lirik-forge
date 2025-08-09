@@ -18,12 +18,13 @@ const Select = forwardRef(({
         </label>
       )}
       <div className="relative">
-        <select
+<select
           ref={ref}
           className={cn(
-            "w-full px-4 py-3 rounded-xl border border-blueberry-200 bg-white appearance-none",
+            "w-full px-3 py-3 sm:px-4 rounded-lg sm:rounded-xl border border-blueberry-200 bg-white appearance-none",
             "focus:outline-none focus:ring-2 focus:ring-blueberry-500 focus:border-blueberry-500",
-            "transition-all duration-200 hover:border-blueberry-300",
+            "transition-all duration-200 hover:border-blueberry-300 text-sm sm:text-base",
+            "min-h-[44px] touch-manipulation",
             error && "border-red-300 focus:ring-red-500 focus:border-red-500",
             className
           )}
@@ -36,10 +37,10 @@ const Select = forwardRef(({
             </option>
           ))}
         </select>
-        <ApperIcon 
+<ApperIcon 
           name="ChevronDown" 
-          className="absolute right-3 top-1/2 transform -translate-y-1/2 text-blueberry-400 pointer-events-none" 
-          size={20} 
+          className="absolute right-2 sm:right-3 top-1/2 transform -translate-y-1/2 text-blueberry-400 pointer-events-none" 
+          size={18} 
         />
       </div>
       {error && (
